@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
         company: 'Clevertech',
         from: 'Remote — Since Sep 2014',
         job: 'Javascript Developer',
-        description: 'Since I started working at Clevertech, I\'ve being envolved in several project as backend and frontend developer. I\'ve worked designing APIs, communicating with third party services, creating Slack bots, Angular and React apps.',
+        description: 'As a developer I\'ve been involved in several projects, working as frontend and or backend developer. Sometimes being in charge of the whole project and sometimes being part of team. Main tasks: communicating with clients, designing, coding and maintaining existing APIs and apps.',
         avatar: 'clevertech.jpg',
         index: 0,
         chips: [{
@@ -36,7 +36,7 @@ router.get('/', function(req, res, next) {
       {
         company: 'Globant',
         from: 'Remote — Apr 2013 - Sep 2014',
-        description: 'While working in Globant, I learned the basics of Javascript, developing two apps for big companies like Deloitte and K12. Main job was working as a frontend developer and help dev lead coordinate with other developers in the team.',
+        description: 'While working in Globant, I learned the basics of Javascript, involved in the development of two apps for big companies like Deloitte and K12. Main tasks were working as a frontend developer and help technical lead coordinate work with other team members and clients. ',
         job: 'Frontend Developer',
         avatar: 'globant.jpg',
         index: 1,
@@ -61,7 +61,7 @@ router.get('/', function(req, res, next) {
       {
         company: 'Soluciones Linux',
         from: 'Montevideo, Uruguay — Feb 2008 - Apr 2013',
-        description: 'Worked as main LAMP developer, where I was in charge of talking with the client, planning and developing the best solution.',
+        description: 'As a LAMP developer, I was in charge of talking with clients, planning and developing app that best solved clients needs.',
         job: 'Lamp Developer',
         avatar: 'soluciones.jpg',
         index: 2,
@@ -82,7 +82,7 @@ router.get('/', function(req, res, next) {
       {
         company: 'SX Networks',
         from: 'Montevideo, Uruguay — Apr 2003 - Feb 2008',
-        description: 'As a Jr PHP developer, I started building small PHP/HTML sites. Over time I developed their first casino referal panel, where stats and payments where processed. Also I was involved in the development the first hispanic community web: Wamba.',
+        description: 'Started as a Jr PHP developer, in charge of small website proyects, and in 2007 became the person in charge of the development sector, with 12 devs under my lead.',
         job: 'LAMP Developer',
         avatar: 'sx.jpg',
         index: 3,
