@@ -7,25 +7,25 @@ router.get('/', function(req, res, next) {
     {
       title: 'Insure Street',
       url: 'http://insurestreet.co/',
-      description: 'Actually working on this project as a NodeJS dev, maintaining the existing API and connecting third party APIs.',
+      description: 'Actually working on this project as a NodeJS dev, maintaining the existing API and connecting with third party services.',
       image: 'insurestreet.jpg'
     },
     {
       title: 'DKMS',
       url: 'https://dkmsgetinvolved.org/',
-      description: 'Worked as a Node/React developer, developing the API to store the donors information and returning some stats. Also worked with another React developer on the registration app.',
+      description: 'Worked as a Node/React developer, developing the API to store the donors information and reports generation. Also worked with another React developer on the frontend registration app.',
       image: 'dkms.jpg'
     },
     {
       title: 'Our Harvest',
       url: 'https://ourharvest.com/',
-      description: 'Worked in the frontend and backend side, maintaining existing code and adding new features, like loyalty points for recurring clients. Improvements to user experience.',
+      description: 'Worked as frontend and backend developer, maintaining existing code and adding new features, like loyalty points for recurring custumers and user experience improvements.',
       image: 'ourharvest.jpg'
     },
     {
       title: 'Mirror App',
       url: 'https://itunes.apple.com/uy/app/mirror-team-performance/id1013251717',
-      description: 'Migrated the existing Parse server to clients server, bug fixing and adding new features.',
+      description: 'Parse server migration of the existing app a new server, bug fixing and development of new features.',
       image: 'mirror.jpg'
     }
   ]});

@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
         company: 'Clevertech',
         from: 'Remote — Since Sep 2014',
         job: 'Javascript Developer',
-        description: 'As a developer I\'ve been involved in several projects, working as frontend and or backend developer. Sometimes being in charge of the whole project and sometimes being part of team. Main tasks: communicating with clients, designing, coding and maintaining existing APIs and apps.',
+        description: 'As a developer I\'ve been involved in several projects, working as frontend and or backend developer. Sometimes in charge of the entire project development, and sometimes as part of team. Main tasks: communicating with clients, designing, coding and maintaining existing APIs and apps.',
         avatar: 'clevertech.jpg',
         index: 0,
         chips: [{
