@@ -20,9 +20,18 @@ const typeDefs = `
     chips: [Chip]
   }
 
+  type Project {
+    id: ID!
+    title: String!,
+    url: String!,
+    description: String!,
+    image: String!
+  }
+
   type Query {
     allJobs: [Job!]!,
-    allChips: [Chip!]
+    allChips: [Chip!],
+    allProjects: [Project!]
   }
 
   type Mutation {
@@ -34,6 +43,13 @@ const typeDefs = `
       avatar: String!,
       index: Int
     ): Job
+
+    createProject(
+      title: String!,
+      url: String!,
+      description: String!,
+      image: String!
+    ): Project
 
     createChip(
       tech: String!,

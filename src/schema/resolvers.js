@@ -6,6 +6,9 @@ module.exports = {
     allChips: async (root, data, {mongo: {Chips}}) => { // 1
       return await Chips.find({}).toArray(); // 2
     },
+    allProjects: async (root, data, {mongo: {Projects}}) => { // 1
+      return await Projects.find({}).toArray(); // 2
+    },
   },
 
   Mutation: {
@@ -15,6 +18,10 @@ module.exports = {
     },
     createChip: async (root, data, {mongo: {Chips}}) => {
       const response = await Chips.insert(data); // 3
+      return Object.assign({id: response.insertedIds[0]}, data);
+    },
+    createProject: async (root, data, {mongo: {Projects}}) => {
+      const response = await Projects.insert(data); // 3
       return Object.assign({id: response.insertedIds[0]}, data);
     },
   },
@@ -27,5 +34,8 @@ module.exports = {
     chips: async (root, data, {mongo: {Chips}}) => {
       return await Chips.find({idJob: root._id.toString()}).toArray()
     }
+  },
+  Project: {
+    id: root => root._id || root.id,
   },
 };

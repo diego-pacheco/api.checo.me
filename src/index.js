@@ -17,7 +17,7 @@ const start = async () => {
 
   const PORT = 3000;
   app.listen(PORT, () => {
-    console.log(`api.checo.mi GraphQL server running on port ${PORT}.`)
+    console.log(`api.checo.me GraphQL server running on port ${PORT}.`)
   });
 };
 
